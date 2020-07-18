@@ -1,1 +1,641 @@
-<h1> hi nitin </h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Bakery and Restaurant page </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ .carousel-inner img{
+     width: 100vh;
+     height: 700px  ;
+   
+
+  
+ }
+
+ .navbar-nav{
+   
+   
+ }
+
+ .aboutfirst{
+     width: 1260pc;
+     height:600px;
+     border: 6px solid black ;
+     background-color: thistle;
+     display: flex;
+     flex-direction: row;
+     overflow:  auto;
+     /* font-size: 12rem; */
+     
+     
+ }
+ /* for background red text change */
+ .text-justify{
+     overflow:  auto;
+     width: 500px;
+     height: 500px ;
+     margin:40px 3px ;
+     font-size: 1.1rem ;
+ }
+ /* .aboutfirst img{
+     overflow:  auto;
+     width: 500px;
+     height: 600px ;
+ } */
+
+ .aboutfirst h1{
+     font-size: 50px;
+ }
+ .about_img{
+     min-width: 100px;
+     max-height: 400px ;
+
+ }
+
+
+     /* // Extra small devices (portrait phones, less than 576px) */
+     @media (max-width: 575.98px) { ... }
+     
+     /* // Small devices (landscape phones, 576px and up) */
+     @media (min-width: 576px) and (max-width: 767.98px) { ... }
+     
+     /* // Medium devices (tablets, 768px and up) */
+     @media (min-width: 768px) and (max-width: 991.98px) { ... }
+     
+     /* // Large devices (desktops, 992px and up) */
+     @media (min-width: 992px) and (max-width: 1199.98px) { ... }
+     
+     /* // Extra large devices (large desktops, 1200px and up) */
+     @media (min-width: 1200px) { ... }
+
+     .nav-link:hover{
+         color:red;
+     }
+    </style>
+
+
+  </head>
+  <body>
+    <!-- NAVBAR START  -->
+    <nav class=" ">
+        <div class=" navbar-nav ">
+            
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <!-- LOGO and text -->
+<nav class="navbar navbar-light ">
+    <a class="navbar-brand " href="#">
+      <img src="https://static.thenounproject.com/png/1883757-200.png" width="30" height="25" class="d-inline-block align-top " alt="Bakery" loading="lazy">
+      SAI BAKER'S
+    </a>
+    <!-- LOGO and text END -->
+  </nav>
+                <a class="navbar-brand" href="#"></a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">HOME  <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">ABOUT </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">MENU CARD  </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">RECIPE CORNER  </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">SERVICES  </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">CONTACT US   </a>
+                    </li>
+
+                    <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li> -->
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- HOME IMAGES START  -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="  https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&dpr=100&w=500" class="d-block  w-100 about-img" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>CAKES ARE HEALTHY TOO, YOU JST EAT A SMALL SLICE. </h5>
+              <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src=" https://images.pexels.com/photos/3731877/pexels-photo-3731877.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="d-block w-100 about-img" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>ALL HAPPINESS DEPENS ON A LEISURELY BREAKFAST</h5>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src=" https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&dpr=100&w=500" class="d-block w-100 about-img" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>PEOPLE WHO LOVE TO EAT ALWAYS THE BEST PEOPLE </h5>
+              <!-- <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <!-- HOME IMAGES END -->
+    
+    <!-- ABOUT SECTION start -->
+    <section class="main_heading my-5 ">
+        <div class="text-center">
+          <h1 class="display-4  my-3" >About Us</h1>
+  <hr class="w-25 mx-auto ">
+        </div>
+    <div class="aboutfirst col-lg-12 col-md-12 col-12"  >
+    <img src="about.jpg.png" class="img-fluid" alt="Responsive image">
+    <h1>WE ARE <br> THE BEST!</h1>
+    <p class="text-justify">We exclusively use sun ripened whole grains to provide you with a source of power, stamina and health! Spoil yourself with our breads natural flavor! We use only the finest quality ingredients providing your body with important fiber and nutrients. For people who suffer from allergies we offer a delicious range of wheat and yeast free products.Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, magnam ullam. Aspernatur illum doloremque laudantium tempore labore explicabo necessitatibus ex cumque, numquam voluptas mollitia porro officiis minus. Repellat, aliquid ullam! Dicta ducimus veniam eius earum? Velit in eius dolore  </p> 
+    
+    
+    </div>
+    <br><br>
+    
+     
+        <div class="container  ">
+          <div class="row ">
+            <div class="col-lg-6 col-md-6 col-12">
+
+              <figure>
+               
+                <img src="  https://images.pexels.com/photos/3054690/pexels-photo-3054690.jpeg?auto=compress&cs=tinysrgb&dpr=100&w=500" alt="first image" class="img-fluid about_img">
+                <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center align-items-start  flex-column">
+           
+              </figure>
+            </div>
+              <div class="col-lg-6 col-md-6 col-12">
+                <h1> SPECIAL CHOWMEIN</h1>
+                <h6> Veg Chowmein has been one of the mostkids favoritedishes in the Indian streetmarket; however, the name chowmein is more of an Americanized name for Chinese stir-fry noodles. While preparing the weekly menu for breakfast, I included Veg Chowmein for this week to give a different taste for one of the days, asit is equally liked by all at home irrespective of the age. The preparation and cooking is fairly straightforward and easy, so it is best to make and serve it fresh. You can add your favorite vegetables to the preparation. For instance, I like to add carrots, cabbage and capsicum Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deleniti eligendi impedit consectetur molestiae rerum ipsa unde natus placeat! Vero eum corporis culpa soluta? Quod laborum eligendi, nostrum dolore, molestiae reiciendis tempora quis et odit voluptatem veniam molestias tenetur perferendis?</h6>
+              </div>
+            <div class="col-lg-6 col-md-6 col-12">
+
+              <figure>
+                <img src="  https://images.pexels.com/photos/3926123/pexels-photo-3926123.jpeg?auto=compress&cs=tinysrgb&dpr=100&w=500" class="rounded float-left  img-fluid about_img" alt="...">
+                <!-- <img src=" " alt="first image" class="img-fluid about_img" class="rounded float-right"> -->
+                <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center align-items-start  flex-column">
+           
+              </figure>
+            </div>
+              <div class="col-lg-6 col-md-6 col-12">
+                <h1> WORLD FAMOUS MOMOS</h1>
+                <h6> A momo is made from thin flour pastry with a filling inside. It's essentially a little dumpling. Momos are found in Nepal and Tibet. There are many other variations around the world though from India and China all the way to Europe.Today, there are food entrepreneurs who prepare momos in bulk and supply them to vendors and kiosks whose only job is to steam and sell them piping hot with hot sauce to hungry customers who never seem to get enough of them. There was a time, not too long ago, when people associated momos with food from the Northeast. Far from it, it’s not really a part of their traditional cuisine. For instance, in Manipur's capital Imphal, restaurants may now be awaking up to the popularity of this food and including them in their menu with passion, but they can never get it right simply because it is not a traditional dish like fish and rice is, as in the case in Tripura or other states in the region, with of course a few exceptions. </h6>
+              </div>
+
+          </div>
+        </div>
+      </section>
+          
+
+    <!-- ABOUT SECTION END -->
+
+    <!-- MENU CARD START  -->
+    <section>
+    <div class="col-lg-12 col-md-12 col-12">
+        <div class="container">
+            <h1 class="mx-auto">Menu Card </h1>
+            <hr class="w-20px"  >
+            <div class="row">
+                <div class="cards">
+                    <div class="card-deck">
+                        <div class="card">
+                          <img src="https://livedemo00.template-help.com/wt_58701/images/page01_img-05.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Crispy and Creamy Doughnuts</h5>
+                            <p class="card-text"> 	
+                                Crispy and Creamy Doughnuts
+                                We have tried so many versions of glazed American-style doughnuts, and this one finally came out perfect!</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://livedemo00.template-help.com/wt_58701/images/page01_img-06.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">	
+                                Go-To Vanilla & Chocolate Cupcakes</h5>
+                            <p class="card-text"> 	
+                                Go-To Vanilla & Chocolate Cupcakes
+                                Moist, perfect cupcakes everyone will love. Recipes with photos and reviews for vanilla cupcakes, cupcake frosting, mini cupcakes and more.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://assets.epicurious.com/photos/575991f3973781fc02c2a827/6:4/w_1600%2Cc_limit/EP_06062016_Vanilla-Buttermilk-Wedding-Cake-with-Raspberries-and-Orange-Cream-Cheese-Frosting.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title"> Butter Cake </h5>
+                            <p class="card-text">Any recipe for cake that begins "cream butter and sugar" is a butter cake. After the creaming, you add eggs to aerate the batter a bit, flour (and sometimes another liquid, like milk) to give it structure and texture, and baking powder or baking soda to ensure that it rises in the oven. </p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-12">
+        <div class="container">
+            <!-- <h1 class="mx-auto">Menu Card </h1> -->
+            <!-- <hr class="w-20px"  > -->
+            <div class="row">
+                <div class="cards">
+                    <div class="card-deck">
+                        <div class="card">
+                          <img src="https://assets.epicurious.com/photos/5af4550baf6ece1dfcaf1a83/6:4/w_1600%2Cc_limit/persian-love-cake-051018.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title"> Chiffon Cake</h5>
+                            <p class="card-text"> 	
+                                This fairly recent American creation was invented by a salesman who sold the recipe to General Mills, which spread the recipe through marketing materials in the 1940s and 1950s. A classic chiffon cake is kind of a cross between an oil cake and a sponge cake. It includes baking powder and vegetable oil, but the eggs are separated and the whites are beaten to soft peaks before being folded into the batter</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://i.ndtvimg.com/i/2017-08/noodles-620x350_620x350_41502436420.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">	
+                                Chowmein</h5>
+                            <p class="card-text"> 	
+                                Chow mein are Chinese stir-fried noodles with vegetables and sometimes meat or tofu; the name is a romanization of the Taishanese chāu-mèn. The dish is popular throughout the Chinese diaspora and appears on the menus of most Chinese restaurants abroad. It is particularly popular in India, Nepal, the UK, and the US.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src=" https://thebetterindia-english.s3.ap-south-1.amazonaws.com/uploads/2017/03/sindhi-pani-puri-house-mumbai-representational_1465557513.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">  Paani Puri  </h5>
+                            <p class="card-text">Phuchka (help·info)) is a type of snack that originated in the Indian subcontinent. It consists of a round or ball-shaped, hollow puri (a deep-fried crisp crepe), filled with a mixture of flavored water (known as imli pani), tamarind chutney, chili, chaat masala, potato, onion or chickpeas. </p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="col-lg-12 col-md-12 col-12">
+        <div class="container">
+            <div class="row">
+                <div class="cards">
+                    <div class="card-deck">
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/11/enhanced/webdr09/enhanced-11958-1411487693-6.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Masala Chai </h5>
+                            <p class="card-text"> 	Of course you've heard of chai, but do you actually know how it's made? Traditional masala chai, or what most Americans know simply as chai, is black tea and milk combined with a blend of cinnamon, cardamom, ginger, cloves, black pepper, fennel, and star anise. A perfect end to any great Indian meal.
+                                </p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/11/enhanced/webdr02/enhanced-12124-1411487672-30.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">	
+                                Mango Lassi </h5>
+                            <p class="card-text"> 	
+                                Mango lassi is another way to cool down if you had a heavy hand with the chili peppers. It's basically a mango milkshake or smoothie made with milk, yogurt, fresh mango puree, and a few aromatic spices. Because in Indian cuisine, everything has at least a few spices.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.huffingtonpost.com/asset/561e62ff1400002200c79e48.jpeg?ops=scalefit_960_noupscale&format=webp" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Mint Oreo Cake </h5>
+                            <p class="card-text">Hands up who loves Oreos! This Mint Oreo cake is to die for - a dark and decadent chocolate cake with layers of mint and crushed Oreo ... </p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-12">
+        <div class="container">
+            <div class="row">
+                <div class="cards">
+                    <div class="card-deck">
+                        <div class="card">
+                          <img src=" https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/13/enhanced/webdr08/enhanced-2917-1411491845-8.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Kulfi </h5>
+                            <p class="card-text"> 	If your main dish was too spicy, have kulfi to cool things down. This frozen dessert is made with milk that's been cooked down, sweetened, flavored, and frozen in moulds. It's like an ice cream popsicle and comes in traditional flavors like rose, pistachio, and mango. Yes please.
+                                </p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/11/enhanced/webdr07/longform-original-12734-1411487633-9.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">	
+                                Rice Kheer</h5>
+                            <p class="card-text"> Rice kheer is an Indian version of rice pudding, but because Indian food is awesome, it does rice pudding one better. Rice kheer is flavored with saffron and cardamom, topped with pistachios and almonds, and deserves a spot in the dessert hall of fame.	
+                                </p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.huffingtonpost.com/asset/561e62fb1400002b003c832e.jpeg?ops=scalefit_960_noupscale&format=webp" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Meyer Lemon Bars </h5>
+                            <p class="card-text"></p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-12">
+        <div class="container">
+            <div class="row">
+                <div class="cards">
+                    <div class="card-deck">
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/13/enhanced/webdr05/longform-original-22027-1411492591-8.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Roti </h5>
+                            <p class="card-text"> Roti is another type of flatbread, but because the dough doesn't contain any yeast, it's actually much thinner than naan. They're kind of like tortillas, and at some restaurants, they're even used to make curry wrap sandwiches.
+
+                                Try making it at home with the recipe here.	</p>
+</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src=" https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/11/enhanced/webdr02/longform-original-11362-1411487534-28.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">	
+                                Naan   </h5>
+                            <p class="card-text"> Naan is the bread you'll use to soak up all of the sauce left on your plate. It's usually pillowy soft, warm, and brushed with oil and herbs. You can customize your naan with a few different additions, and garlic is always a good way to go.	
+                                </p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/13/enhanced/webdr09/enhanced-22545-1411492343-1.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Biryani</h5>
+                            <p class="card-text">If jalfrezi is like Indian stir fry, then biryani is like Indian fried rice. Rice is the primary ingredient to which any combination of meats, vegetables, dried fruits, nuts, and spices are added. Some biryanis contain raisins, which add a level of sweetness to the otherwise savory and flavorful dish.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-12">
+        <div class="container">
+            <div class="row">
+                <div class="cards">
+                    <div class="card-deck">
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/12/enhanced/webdr08/longform-original-4996-1411490556-10.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Chicken Jalfrezi </h5>
+                            <p class="card-text"> Chicken jalfrezi is characterized by its large pieces of onions and red and green peppers, which make this dish similar to a stir fry. The meat and vegetables are cooked in oil and spices, then tomatoes are added to create a thick, chunky sauce. Go crazy, jalfrezi.	
+                               </p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/12/enhanced/webdr05/longform-original-10422-1411490000-35.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">	
+                                Chicken Korma </h5>
+                            <p class="card-text"> 	
+                                If spicy food isn't your game, korma might be a safer bet. This curry dish is often made with coconut milk and ground up almonds or cashews, which give the sauce a pleasant nutty flavor and smoothness. The mildness of the sauce lets the aroma of milder spices shine.   </p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/11/enhanced/webdr10/enhanced-21909-1411487035-20.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">  Aloo Tikki</h5>
+                            <p class="card-text">Think of aloo tikki as delicious Indian potato fritters. These appetizers or snacks are made with mashed potatoes and a variety of spices, formed into patties, then fried in oil.  </p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-12">
+        <div class="container">
+            <div class="row">
+                <div class="cards">
+                    <div class="card-deck">
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/12/enhanced/webdr01/longform-original-5715-1411488852-29.jpg?downsize=600:*&output-format=auto&output-quality=auto " class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Mango Chutney </h5>
+                            <p class="card-text"> 	
+                                This quintessential Indian condiment is used to top many Indian appetizers and is made with mangoes, vinegar, sugar, and spices. Mango chutney is probably the most recognizable chutney, and the most widely available, but chutneys can be made from a number of other ingredients including mint and tamarind.   </p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/11/enhanced/webdr02/longform-original-11540-1411487102-19.jpg?downsize=600:*&output-format=auto&output-quality=auto " class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">	
+                                Samosas</h5>
+                            <p class="card-text"> 	
+                                Think of samosas as being an Indian version of empanadas. These are a favorite appetizer made with with a flaky pastry enveloping a hearty filling of potatoes and vegetables. They're folded into triangles, fried, and served with chutneys.  </p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/11/enhanced/webdr09/longform-original-11349-1411487122-3.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">  Raita</h5>
+                            <p class="card-text">Raita is your best friend if you're having Indian food for the first time. Not exactly sure how spicy your dish is going to be? Think you might not be able to handle it? Have no fear. Raita's got your back. This cooling cucumber-mint yogurt sauce will dial down the heat if things get too hot. </p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-12">
+        <div class="container">
+            <div class="row">
+                <div class="cards">
+                    <div class="card-deck">
+                        <div class="card">
+                          <img src=" https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/13/enhanced/webdr05/longform-original-22620-1411492130-3.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">  Pakora/Bhaji</h5>
+                            <p class="card-text"> 	Pakora and bhaji are two terms for vegetables that are battered and deep fried, kind of like tempura. Onion is one of the most popular varieties of pakora and bhaji, but other vegetables are prepared the same way. That's a pretty convincing way to get your 3-5 a day.
+                            </p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/13/enhanced/webdr04/enhanced-11174-1411493963-11.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">	
+                                Palak Paneer/Saag Paneer</h5>
+                            <p class="card-text"> 	
+                                Palak paneer is what Popeye would eat if he ate Indian food. It's cooked spinach with a soft, fresh white cheese called paneer, and it's amazing. You might also know this dish as saag paneer. "Palak" is the Hindi word for spinich, while "saag" means greens, so the two terms are somewhat overlapping.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/11/enhanced/webdr11/longform-original-5455-1411487211-4.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title"> Chana Dal</h5>
+                            <p class="card-text">Chana dal is a dish consisting primarily of split chickpeas stewed with spices such as turmeric. Dal also refers to other legumes such as peas, kidney beans, and lentils, and it's possible you might also find these varieties on your restaurant menu.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-12">
+        <div class="container">
+            <div class="row">
+                <div class="cards">
+                    <div class="card-deck">
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/12/enhanced/webdr01/longform-original-5128-1411489501-20.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Aloo Gobi</h5>
+                            <p class="card-text"> 	
+                                Aloo gobi is a flavorful dish made with potatoes and cauliflower that are cooked in garlic, ginger, turmeric, and other spices. It's typically on the spicier side and is drier because, unlike many main dishes, it isn't served as a stew or in a sauce.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/12/enhanced/webdr09/longform-original-11349-1411490150-45.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">	
+                                Tandoori Chicken</h5>
+                            <p class="card-text"> 	
+                                Traditionally, tandoori chicken is roasted in a clay oven called a tandoor. The chicken is marinated in yogurt and spices overnight before it goes in the tandoor on long skewers. If your kitchen or takeout spot doesn't have a clay oven, a grill or broiler will do the trick.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/11/enhanced/webdr02/enhanced-11477-1411487412-6.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Chicken Tikka Masala</h5>
+                            <p class="card-text">Chicken tikka masala is a classic Indian takeout dish and a prominent feature of Indian as well as British cuisine. It's so popular that it's even been called, unofficially, the "national dish of the U.K." Pieces of tandoori chicken are cut up and stewed in a rich.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-12">
+        <div class="container">
+            <div class="row">
+                <div class="cards">
+                    <div class="card-deck">
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/13/enhanced/webdr07/enhanced-16372-1411493621-4.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Butter Chicken</h5>
+                            <p class="card-text"> 	
+                                Butter chicken is very similar to chicken tikka masala, but whole, bone-in pieces of chicken may be used. In most cases, however, chicken tikka masala and butter chicken are nearly interchangeable.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/11/enhanced/webdr09/longform-original-11885-1411487350-11.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">	
+                                Lamb Rogan Josh</h5>
+                            <p class="card-text"> 	
+                                Lamb rogan josh originally comes from Pakistan and the Kashmir region of Northern India and is available today at most Indian takeout restaurants around the world. After the meat marinates in yogurt, garlic, and ginger, it's cooked with onions, peppers, and loads of spices. Cardamom, cloves, cinnamon, coriander, fennel seeds, garam masala, and the list goes on.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/23/11/enhanced/webdr02/longform-original-10652-1411487381-25.jpg?downsize=800:*&output-format=auto&output-quality=auto" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title"> Chicken Vindaloo</h5>
+                            <p class="card-text">Vindaloos are characterized by a thinner, typically tangier sauce made with a splash of vinegar. These dishes also typically tend to be on the spicier side with a blend of hot chilies in the mix, so proceed with caution.</p>
+                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- MENU CARD END -->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
